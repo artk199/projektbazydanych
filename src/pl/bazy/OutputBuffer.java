@@ -17,9 +17,12 @@ public class OutputBuffer {
     private BufferedWriter bw;
     private int position;
     private Student[] buffer;
+    private int bufferSize;
 
-    public OutputBuffer(File f){
+    public OutputBuffer(File f,int bufferSize){
         this.f = f;
+        this.bufferSize = bufferSize;
+        this.buffer = new Student[bufferSize];
         try {
             this.fw = new FileWriter(f);
             this.bw = new BufferedWriter(fw);
@@ -28,12 +31,20 @@ public class OutputBuffer {
         }
     }
     public void saveItem(Student s){
-
+        buffer[position] = s;
+        position++;
+        if(position >= bufferSize)
+            forceSave();
     }
 
     public void forceSave(){
         for(int i=0;i<position;i++){
-            bw.write(buffer[i].serialize());
+            try {
+                bw.write(buffer[i].serialize());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+        position = 0;
     }
 }
