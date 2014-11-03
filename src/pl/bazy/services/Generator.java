@@ -2,7 +2,9 @@ package pl.bazy.services;
 
 import pl.bazy.data.Student;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 
 /**
@@ -10,31 +12,34 @@ import java.util.Random;
  */
 public class Generator {
 
-    public static Student student(int index){
+    public static Student student(int index) {
         Student s = new Student();
         s.setIndex(index);
-        for(int i=0;i<Student.NUM_OF_RATINGS;i++){
-            s.setRating(i,randomRating());
+        for (int i = 0; i < Student.NUM_OF_RATINGS; i++) {
+            s.setRating(i, randomRating());
         }
 
         return s;
     }
 
-    public static File generateStudentFile(){
+    public static File generateStudentFile() {
         File f = new File("plik.txt");
         FileWriter os = null;
+        int amount_of_students = 100;
         try {
             os = new FileWriter(f);
+            for (int k = 0; k < amount_of_students; k++) {
+                int j = 1;
+                Student s = student(j);
+                StringBuilder sb = new StringBuilder();
+                sb.append(s.getIndex() + " ");
+                for (int i = 0; i < Student.NUM_OF_RATINGS; i++)
+                    sb.append(s.getRating(i) + " ");
 
-        int j = 1;
-        Student s = student(j);
-        StringBuilder sb = new StringBuilder();
-        sb.append(s.getIndex());
-        sb.append("\n");
-        for(int i=0;i<Student.NUM_OF_RATINGS;i++)
-            sb.append(s.getRating(i)+"\n");
+                os.write(sb.toString() + "\n");
 
-            os.write(sb.toString());
+
+            }
             os.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -42,8 +47,80 @@ public class Generator {
         return f;
     }
 
-    private static double randomRating(){
+    public static File generateStudentFileForDebug(){
+        File f = new File("plik.txt");
+        FileWriter os = null;
+        int amount_of_students = 100;
+        try {
+            StringBuilder sb;
+            os = new FileWriter(f);
+
+            Student s = new Student();
+            s.setRatings(new double[]{2,2,2});
+            s.setIndex(1);
+
+            sb = new StringBuilder();
+            sb.append(s.getIndex() + " ");
+            for (int i = 0; i < Student.NUM_OF_RATINGS; i++)
+                sb.append(s.getRating(i) + " ");
+            os.write(sb.toString() + "\n");
+
+            s = new Student();
+            s.setRatings(new double[]{1,1,1});
+            s.setIndex(1);
+
+            sb = new StringBuilder();
+            sb.append(s.getIndex() + " ");
+            for (int i = 0; i < Student.NUM_OF_RATINGS; i++)
+                sb.append(s.getRating(i) + " ");
+            os.write(sb.toString() + "\n");
+            s = new Student();
+            s.setRatings(new double[]{2,2,2});
+            s.setIndex(1);
+
+            sb = new StringBuilder();
+            sb.append(s.getIndex() + " ");
+            for (int i = 0; i < Student.NUM_OF_RATINGS; i++)
+                sb.append(s.getRating(i) + " ");
+            os.write(sb.toString() + "\n");
+            s = new Student();
+            s.setRatings(new double[]{4,4,4});
+            s.setIndex(1);
+
+            sb = new StringBuilder();
+            sb.append(s.getIndex() + " ");
+            for (int i = 0; i < Student.NUM_OF_RATINGS; i++)
+                sb.append(s.getRating(i) + " ");
+            os.write(sb.toString() + "\n");
+            s = new Student();
+            s.setRatings(new double[]{6,6,6});
+            s.setIndex(1);
+
+            sb = new StringBuilder();
+            sb.append(s.getIndex() + " ");
+            for (int i = 0; i < Student.NUM_OF_RATINGS; i++)
+                sb.append(s.getRating(i) + " ");
+            os.write(sb.toString() + "\n");
+
+            s = new Student();
+            s.setRatings(new double[]{3,3,3});
+            s.setIndex(1);
+
+            sb = new StringBuilder();
+            sb.append(s.getIndex() + " ");
+            for (int i = 0; i < Student.NUM_OF_RATINGS; i++)
+                sb.append(s.getRating(i) + " ");
+            os.write(sb.toString() + "\n");
+
+            os.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return f;
+    }
+
+    private static double randomRating() {
         Random r = new Random();
-        return r.nextDouble()*6;
+        return r.nextDouble() * 6;
     }
 }

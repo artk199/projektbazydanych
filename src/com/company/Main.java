@@ -1,12 +1,12 @@
 package com.company;
 
+import pl.bazy.ProjektBazy;
 import pl.bazy.services.Generator;
 
 public class Main {
 
     public static void main(String[] args) {
-        Generator.generateStudentFile();
-
-        System.out.println(Generator.student(1));
+        ProjektBazy projekt = new ProjektBazy(Generator.generateStudentFileForDebug());
+        projekt.sort();
     }
 }

@@ -68,6 +68,7 @@ public class Student implements Comparable {
         }else
             LOGGER.log(Level.WARNING,"Za duże i dałeś d$!@#$.");
     }
+
     public double getRating(int i){
         if(i < ratings.length) {
             return ratings[i];
@@ -75,6 +76,7 @@ public class Student implements Comparable {
             LOGGER.log(Level.WARNING,"Za duże i dałeś d$!@#$.");
         return -1;
     }
+
     public double averageRating(){
         if(avg == -1){
             double sum = 0;
@@ -91,7 +93,7 @@ public class Student implements Comparable {
         if (o == null || getClass() != o.getClass()) return -1;
 
         Student student = (Student) o;
-
+        System.out.println("Porównuje " + this.avg + " : " + student.avg);
         if(student.averageRating() == this.averageRating())
             return 0;
 
@@ -106,10 +108,22 @@ public class Student implements Comparable {
         if(avg == -1)
             averageRating();
 
-        return "Student{" +
+        /*return "Student{" +
                 "index=" + index +
                 ", ratings=" + Arrays.toString(ratings) +
                 ", avg=" + avg +
                 '}';
+
+   */
+        return ""+avg;
     }
+
+    public String serialize(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.getIndex()+"\n");
+        for(int i=0;i<NUM_OF_RATINGS;i++){
+            sb.append(ratings[i]+"\n");
+        }
+        return sb.toString();
+    };
 }
