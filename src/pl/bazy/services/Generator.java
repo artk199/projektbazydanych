@@ -25,11 +25,11 @@ public class Generator {
     public static File generateStudentFile() {
         File f = new File("plik.txt");
         FileWriter os = null;
-        int amount_of_students = 100;
+        int amount_of_students = 123;
         try {
             os = new FileWriter(f);
             for (int k = 0; k < amount_of_students; k++) {
-                int j = 1;
+                int j = k;
                 Student s = student(j);
                 StringBuilder sb = new StringBuilder();
                 sb.append(s.getIndex() + " ");

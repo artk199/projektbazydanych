@@ -27,29 +27,28 @@ public class ProjektBazy {
     }
 
     public void sort(){
-        //Wczytaj plik
-        InputStream    fis;
-        BufferedReader br;
-        String         line;
-        LinkedList<Comparable> seria = seria1;
-        LinkedList<Comparable> wszystkie = new LinkedList<Comparable>();
-        try {
-            Scanner scanner = new Scanner(file);
 
-            while (scanner.hasNext()) {
-                Student s = new Student();
-                s.setIndex(scanner.nextInt());
-                int number = 0;
-                while(number < Student.NUM_OF_RATINGS){
-                    s.setRating(number, Double.parseDouble(scanner.next()));
-                    number++;
-                }
-                wszystkie.add(s);
-                //System.out.println(s);
+        InputBuffer buffer = new InputBuffer(file,10);
+        OutputBuffer tapes[] = new OutputBuffer[2];
+        tapes[0] = new OutputBuffer(new File("tape1.txt"),10);
+        tapes[1] = new OutputBuffer(new File("tape2.txt"),10);
+
+        Student s;
+        int l = 0;
+        Student lastOne = null;
+        int activeTape = 0;
+        while((s = buffer.getItem()) != null){
+            if(s.compareTo(lastOne)<0){
+                activeTape++;
+                activeTape%=2;
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+            tapes[activeTape].saveItem(s);
+            lastOne = s;
         }
+        tapes[0].close();
+        tapes[1].close();
+
+        /*
         System.out.println(wszystkie);
         //Dopóki nie wczytasz wszystkiego zapisuj na serie 1 i 2
        Comparable last = null;
@@ -111,6 +110,6 @@ public class ProjektBazy {
         }
         System.out.println(wszystkie);
         System.out.println(wszystkie.size());
-
+*/
     }
 }

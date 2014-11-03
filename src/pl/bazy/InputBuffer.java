@@ -40,7 +40,7 @@ public class InputBuffer {
         if(position >= bufferSize){
             position = 0;
             max = 0;
-            if (scanner.hasNext() && max < bufferSize) {
+            while(scanner.hasNext() && max < bufferSize) {
                 Student s = new Student();
                 s.setIndex(scanner.nextInt());
                 int number = 0;
@@ -52,14 +52,14 @@ public class InputBuffer {
                 max++;
             }
             if(ProjektBazy.DEBUG){
-                System.out.println("Wczytałem " + max + "pozycji: ");
+                System.out.println("Wczytałem " + max + " pozycji: ");
                 for(int i=0;i<max;i++)
                     System.out.println(i+" "+buffer[i]);
             }
         }
 
         Student s = null;
-        if(position <= max){
+        if(position < max){
             s = buffer[position];
             position++;
         }

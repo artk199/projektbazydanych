@@ -120,9 +120,9 @@ public class Student implements Comparable {
 
     public String serialize(){
         StringBuilder sb = new StringBuilder();
-        sb.append(this.getIndex()+"\n");
+        sb.append(this.getIndex()+" ");
         for(int i=0;i<NUM_OF_RATINGS;i++){
-            sb.append(ratings[i]+"\n");
+            sb.append(ratings[i]+" ");
         }
         return sb.toString();
     };

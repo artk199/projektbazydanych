@@ -6,7 +6,7 @@ import pl.bazy.services.Generator;
 public class Main {
 
     public static void main(String[] args) {
-        ProjektBazy projekt = new ProjektBazy(Generator.generateStudentFileForDebug());
+        ProjektBazy projekt = new ProjektBazy(Generator.generateStudentFile());
         projekt.sort();
     }
 }
