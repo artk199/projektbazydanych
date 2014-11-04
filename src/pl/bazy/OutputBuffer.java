@@ -17,9 +17,11 @@ public class OutputBuffer {
     private int position;
     private Student[] buffer;
     private int bufferSize;
+    private int counter;
 
     public OutputBuffer(File f,int bufferSize){
         this.f = f;
+        this.counter = 0;
         this.bufferSize = bufferSize;
         this.buffer = new Student[bufferSize];
         try {
@@ -47,6 +49,8 @@ public class OutputBuffer {
                 e.printStackTrace();
             }
         }
+        if(position == this.bufferSize)
+            counter++;
         position = 0;
     }
 
@@ -57,5 +61,21 @@ public class OutputBuffer {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void setCounter(int counter) {
+        this.counter = counter;
+    }
+
+    public File getFile() {
+        return f;
+    }
+
+    public void setFile(File f) {
+        this.f = f;
     }
 }

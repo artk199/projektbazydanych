@@ -18,6 +18,7 @@ public class InputBuffer {
     private Student[] buffer;
     private int position;
     private int max;
+    private int counter;
 
     public InputBuffer(File f,int bufferSize){
         this.f = f;
@@ -27,6 +28,8 @@ public class InputBuffer {
         this.buffer = new Student[bufferSize];
 
         this.position = bufferSize;
+
+        this.counter = 0;
 
         try {
             this.scanner = new Scanner(f);
@@ -56,6 +59,7 @@ public class InputBuffer {
                 for(int i=0;i<max;i++)
                     System.out.println(i+" "+buffer[i]);
             }
+            counter++;
         }
 
         Student s = null;
@@ -65,4 +69,25 @@ public class InputBuffer {
         }
         return s;
     }
+
+    public void close(){
+        scanner.close();
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void setCounter(int counter) {
+        this.counter = counter;
+    }
+
+    public File getFile() {
+        return f;
+    }
+
+    public void setFile(File f) {
+        this.f = f;
+    }
+
 }

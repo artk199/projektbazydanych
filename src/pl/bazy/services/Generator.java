@@ -25,7 +25,7 @@ public class Generator {
     public static File generateStudentFile() {
         File f = new File("plik.txt");
         FileWriter os = null;
-        int amount_of_students = 123;
+        int amount_of_students = 150;
         try {
             os = new FileWriter(f);
             for (int k = 0; k < amount_of_students; k++) {

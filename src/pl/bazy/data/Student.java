@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  */
 public class Student implements Comparable {
 
-    public static final int NUM_OF_RATINGS = 3;
+    public static final int NUM_OF_RATINGS = 1;
 
     private final static Logger LOGGER = Logger.getLogger(Student.class.getName());
 
@@ -89,11 +89,11 @@ public class Student implements Comparable {
     }
     @Override
     public int compareTo(Object o) {
-        if (this == o) return -1;
-        if (o == null || getClass() != o.getClass()) return -1;
+        if (this == o) return 0;
+        if (o == null || getClass() != o.getClass()) return 1;
 
         Student student = (Student) o;
-        System.out.println("Porównuje " + this.avg + " : " + student.avg);
+        //System.out.println("Porównuje " + this.avg + " : " + student.avg);
         if(student.averageRating() == this.averageRating())
             return 0;
 
@@ -120,7 +120,7 @@ public class Student implements Comparable {
 
     public String serialize(){
         StringBuilder sb = new StringBuilder();
-        sb.append(this.getIndex()+" ");
+        sb.append(this.getIndex()+"\t");
         for(int i=0;i<NUM_OF_RATINGS;i++){
             sb.append(ratings[i]+" ");
         }
