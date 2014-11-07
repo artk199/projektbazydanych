@@ -1,15 +1,13 @@
 package pl.bazy.data;
 
-import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import static pl.bazy.Settings.NUM_OF_RATINGS;
 
 /**
  * Created by Art on 2014-10-21.
  */
-public class Student implements Comparable {
-
-    public static final int NUM_OF_RATINGS = 1;
+public class Student implements FieldType {
 
     private final static Logger LOGGER = Logger.getLogger(Student.class.getName());
 
@@ -118,6 +116,7 @@ public class Student implements Comparable {
         return ""+avg;
     }
 
+    @Override
     public String serialize(){
         StringBuilder sb = new StringBuilder();
         sb.append(this.getIndex()+"\t");

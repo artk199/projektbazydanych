@@ -27,15 +27,7 @@ public class InputBuffer {
 
         this.buffer = new Student[bufferSize];
 
-        this.position = bufferSize;
-
         this.counter = 0;
-
-        try {
-            this.scanner = new Scanner(f);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
     }
 
     public Student getItem(){
@@ -47,19 +39,20 @@ public class InputBuffer {
                 Student s = new Student();
                 s.setIndex(scanner.nextInt());
                 int number = 0;
-                while(number < Student.NUM_OF_RATINGS){
+                while(number < Settings.NUM_OF_RATINGS){
                     s.setRating(number, Double.parseDouble(scanner.next()));
                     number++;
                 }
                 buffer[max] = s;
                 max++;
             }
-            if(ProjektBazy.DEBUG){
+            if(Settings.DEBUG){
                 System.out.println("Wczytałem " + max + " pozycji: ");
-                for(int i=0;i<max;i++)
-                    System.out.println(i+" "+buffer[i]);
+                //for(int i=0;i<max;i++)
+               //     System.out.println(i+" "+buffer[i]);
             }
-            counter++;
+            if(max > 0)
+                counter++;
         }
 
         Student s = null;
@@ -68,6 +61,15 @@ public class InputBuffer {
             position++;
         }
         return s;
+    }
+
+    public void open(){
+        this.position = bufferSize;
+        try {
+            this.scanner = new Scanner(f);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public void close(){

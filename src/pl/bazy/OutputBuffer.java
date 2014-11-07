@@ -1,6 +1,6 @@
 package pl.bazy;
 
-import pl.bazy.data.Student;
+import pl.bazy.data.FieldType;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -15,7 +15,7 @@ public class OutputBuffer {
     private File f;
     private FileWriter fw;
     private int position;
-    private Student[] buffer;
+    private FieldType[] buffer;
     private int bufferSize;
     private int counter;
 
@@ -23,7 +23,12 @@ public class OutputBuffer {
         this.f = f;
         this.counter = 0;
         this.bufferSize = bufferSize;
-        this.buffer = new Student[bufferSize];
+        this.buffer = new FieldType[bufferSize];
+
+    }
+
+    public void open(){
+        position = 0;
         try {
             this.fw = new FileWriter(f);
         } catch (IOException e) {
@@ -31,7 +36,7 @@ public class OutputBuffer {
         }
     }
 
-    public void saveItem(Student s){
+    public void saveItem(FieldType s){
         buffer[position] = s;
         position++;
         if(position >= bufferSize)
@@ -39,18 +44,21 @@ public class OutputBuffer {
     }
 
     public void forceSave(){
+
         for(int i=0;i<position;i++){
             try {
                 fw.write(buffer[i].serialize()+"\n");
-                if(ProjektBazy.DEBUG){
-                    System.out.println("Zapsiuje do pliku:\n " + buffer[i].serialize());
-                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-        if(position == this.bufferSize)
+
+        if(Settings.DEBUG)
+            System.out.println("Zapisałem " + position + " pozycji.");
+
+        if(position > 0 && position == bufferSize)
             counter++;
+
         position = 0;
     }
 
@@ -61,6 +69,7 @@ public class OutputBuffer {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
     public int getCounter() {
