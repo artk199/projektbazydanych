@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b34628-1dc0-4d1b-ac15-56bbc2f37640" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pl/bazy/data/FieldType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pl/bazy/services/PolyphaseSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pl/bazy/Settings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pl/bazy/Tape.java" />
+      <change type="DELETED" beforePath="C:\Users\Art\IdeaProjects\untitled2\plik.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Art\IdeaProjects\untitled2\skrypt.bat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/data/FieldType.java" afterPath="$PROJECT_DIR$/src/pl/bazy/data/FieldType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/services/Generator.java" afterPath="$PROJECT_DIR$/src/pl/bazy/services/Generator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/InputBuffer.java" afterPath="$PROJECT_DIR$/src/pl/bazy/InputBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/OutputBuffer.java" afterPath="$PROJECT_DIR$/src/pl/bazy/OutputBuffer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/services/PolyphaseSort.java" afterPath="$PROJECT_DIR$/src/pl/bazy/services/PolyphaseSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java" afterPath="$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/Settings.java" afterPath="$PROJECT_DIR$/src/pl/bazy/Settings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/data/Student.java" afterPath="$PROJECT_DIR$/src/pl/bazy/data/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plik.txt" afterPath="$PROJECT_DIR$/plik.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/bazy/Tape.java" afterPath="$PROJECT_DIR$/src/pl/bazy/Tape.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled2.iws" />
@@ -23,6 +23,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -35,11 +40,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ProjektBazy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1052" max-vertical-offset="2312">
+              <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#ProjektBazy#0;class#ProjektBazy#0" expanded="false" />
+                <element signature="method#nextStep#0;class#ProjektBazy#0" expanded="false" />
+                <element signature="method#sort#0;class#ProjektBazy#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/bazy/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="442">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputBuffer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/bazy/InputBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43003413" vertical-offset="71" max-vertical-offset="680">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="method#InputBuffer#0;class#InputBuffer#0" expanded="false" />
+                <element signature="method#getItem#0;class#InputBuffer#0" expanded="false" />
+                <element signature="method#open#0;class#InputBuffer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="plik.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plik.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="3162">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="3162">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -48,85 +92,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjektBazy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java">
+      <file leaf-file-name="plik1.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plik1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="1598">
-              <caret line="156" column="130" selection-start-line="156" selection-start-column="130" selection-end-line="156" selection-end-column="130" />
+            <state vertical-scroll-proportion="-6.8" vertical-offset="2890" max-vertical-offset="3162">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plik2.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plik2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/bazy/data/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1224">
+              <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#ProjektBazy#0;class#ProjektBazy#0" expanded="false" />
-                <element signature="method#merge#0;class#ProjektBazy#0" expanded="false" />
+                <element signature="method#setRating#0;class#Student#0" expanded="false" />
+                <element signature="method#getRating#0;class#Student#0" expanded="false" />
+                <element signature="method#averageRating#0;class#Student#0" expanded="false" />
+                <element signature="method#compareTo#0;class#Student#0" expanded="false" />
+                <element signature="method#toString#0;class#Student#0" expanded="false" />
+                <element signature="method#serialize#0;class#Student#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolyphaseSort.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pl/bazy/services/PolyphaseSort.java">
+      <file leaf-file-name="FieldType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/bazy/data/FieldType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13957307" vertical-offset="0" max-vertical-offset="609">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputBuffer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/bazy/InputBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1717">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputBuffer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/bazy/OutputBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1632">
-              <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tape.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/bazy/Tape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1428">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="374">
-              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/bazy/services/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2295">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Settings.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/bazy/Settings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="391">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -149,21 +159,25 @@
         <option value="$PROJECT_DIR$/src/pl/bazy/NormalSort.java" />
         <option value="$PROJECT_DIR$/src/pl/bazy/ProjketBazy.java" />
         <option value="$PROJECT_DIR$/tape1.txt" />
-        <option value="$PROJECT_DIR$/plik.txt" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/pl/bazy/data/Type.java" />
-        <option value="$PROJECT_DIR$/src/pl/bazy/data/FieldType.java" />
         <option value="$PROJECT_DIR$/src/pl/bazy/data/config.java" />
         <option value="$PROJECT_DIR$/src/pl/bazy/data/Config.java" />
-        <option value="$PROJECT_DIR$/src/pl/bazy/data/Student.java" />
-        <option value="$PROJECT_DIR$/src/pl/bazy/services/Generator.java" />
         <option value="$PROJECT_DIR$/src/pl/bazy/InputBuffer.java" />
-        <option value="$PROJECT_DIR$/src/pl/bazy/Tape.java" />
-        <option value="$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java" />
         <option value="$PROJECT_DIR$/src/pl/bazy/OutputBuffer.java" />
+        <option value="$PROJECT_DIR$/src/pl/bazy/Tape.java" />
+        <option value="$PROJECT_DIR$/src/pl/bazy/services/PolyphaseSort.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/pl/bazy/services/Generator.java" />
+        <option value="$PROJECT_DIR$/plik.txt" />
+        <option value="$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java" />
         <option value="$PROJECT_DIR$/src/pl/bazy/Settings.java" />
+        <option value="$PROJECT_DIR$/src/pl/bazy/data/Student.java" />
+        <option value="$PROJECT_DIR$/src/pl/bazy/data/FieldType.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -251,7 +265,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
+              <option name="myItemId" value="bazy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,7 +546,7 @@
       <workItem from="1415117080387" duration="12329000" />
       <workItem from="1415142200018" duration="1764000" />
       <workItem from="1415352060368" duration="13385000" />
-      <workItem from="1415373801249" duration="258000" />
+      <workItem from="1415373801249" duration="13121000" />
     </task>
     <task id="LOCAL-00001" summary="PODstawy">
       <created>1415033155594</created>
@@ -532,41 +564,65 @@
       <created>1415143745611</created>
       <updated>1415143745612</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sortowanie, prawie ładnie.">
+      <created>1415374091364</created>
+      <updated>1415374091364</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56870000" />
+    <option name="totallyTimeSpent" value="69733000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16692914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4488189" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17789166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30393702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18353474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7336601" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -589,11 +645,12 @@
     <MESSAGE value="Małe zmiany" />
     <MESSAGE value="Podział na taśmy" />
     <MESSAGE value="Działa sortowanie." />
-    <option name="LAST_COMMIT_MESSAGE" value="Działa sortowanie." />
+    <MESSAGE value="Sortowanie, prawie ładnie." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sortowanie, prawie ładnie." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -601,28 +658,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/data/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2108" max-vertical-offset="2295">
-          <caret line="124" column="39" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/NormalSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="1921">
@@ -630,7 +665,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ProjektBazy#0;class#ProjektBazy#0" expanded="false" />
-            <element signature="method#merge#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#nextStep#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#sort#0;class#ProjektBazy#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -639,7 +675,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2244">
           <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="method#generateStudentFileForDebug#0;class#Generator#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,6 +685,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="2142">
           <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -672,7 +713,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ProjektBazy#0;class#ProjektBazy#0" expanded="false" />
-            <element signature="method#merge#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#nextStep#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#sort#0;class#ProjektBazy#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -681,7 +723,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2244">
           <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="method#generateStudentFileForDebug#0;class#Generator#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -689,6 +733,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1309">
           <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -714,7 +761,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ProjektBazy#0;class#ProjektBazy#0" expanded="false" />
-            <element signature="method#merge#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#nextStep#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#sort#0;class#ProjektBazy#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,7 +771,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2244">
           <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="method#generateStudentFileForDebug#0;class#Generator#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -731,6 +781,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="1309">
           <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -756,7 +809,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ProjektBazy#0;class#ProjektBazy#0" expanded="false" />
-            <element signature="method#merge#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#nextStep#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#sort#0;class#ProjektBazy#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -765,7 +819,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1020">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="method#generateStudentFileForDebug#0;class#Generator#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -773,6 +829,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2057">
           <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,7 +861,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="935">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#generateStudentFileForDebug#0;class#Generator#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,6 +871,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2057">
           <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -839,7 +903,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="935">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#generateStudentFileForDebug#0;class#Generator#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,6 +913,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2057">
           <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,99 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/data/FieldType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tape1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tape3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.92" vertical-offset="1622" max-vertical-offset="4607">
-          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tape2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/data/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="2108">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3812" max-vertical-offset="24293">
           <caret line="273" column="25" selection-start-line="273" selection-start-column="25" selection-end-line="273" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plik2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plik1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="204">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/services/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="2295">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/InputBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1496">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/Tape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="850">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -977,18 +957,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/Settings.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/bazy/Tape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="935">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+          <folding>
+            <element signature="method#Tape#0;class#Tape#0" expanded="false" />
+            <element signature="method#clearCounter#0;class#Tape#0" expanded="false" />
+            <element signature="method#writeFile#0;class#Tape#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/bazy/services/PolyphaseSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="1241">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PolyphaseSort#0;class#PolyphaseSort#0" expanded="false" />
+            <element signature="class#FibonacciNumbers#0;class#PolyphaseSort#0" expanded="false" />
+            <element signature="e#2169#2178#0" expanded="true" />
+            <element signature="e#2726#2727#0" expanded="true" />
+            <element signature="e#2759#2760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/bazy/services/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1037">
+          <caret line="126" column="38" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
+          <folding>
+            <element signature="method#generateStudentFileForDebug#0;class#Generator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plik2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plik1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8" vertical-offset="2890" max-vertical-offset="3162">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plik.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="3162">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="272">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -998,21 +1037,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/bazy/ProjektBazy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="1598">
-          <caret line="156" column="130" selection-start-line="156" selection-start-column="130" selection-end-line="156" selection-end-column="130" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1052" max-vertical-offset="2312">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ProjektBazy#0;class#ProjektBazy#0" expanded="false" />
-            <element signature="method#merge#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#nextStep#0;class#ProjektBazy#0" expanded="false" />
+            <element signature="method#sort#0;class#ProjektBazy#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/bazy/services/PolyphaseSort.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/bazy/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13957307" vertical-offset="0" max-vertical-offset="609">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="442">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/bazy/data/FieldType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/bazy/data/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1258">
+          <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+          <folding>
+            <element signature="method#setRating#0;class#Student#0" expanded="false" />
+            <element signature="method#getRating#0;class#Student#0" expanded="false" />
+            <element signature="method#averageRating#0;class#Student#0" expanded="false" />
+            <element signature="method#compareTo#0;class#Student#0" expanded="false" />
+            <element signature="method#toString#0;class#Student#0" expanded="false" />
+            <element signature="method#serialize#0;class#Student#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/bazy/InputBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43003413" vertical-offset="71" max-vertical-offset="680">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="method#InputBuffer#0;class#InputBuffer#0" expanded="false" />
+            <element signature="method#getItem#0;class#InputBuffer#0" expanded="false" />
+            <element signature="method#open#0;class#InputBuffer#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

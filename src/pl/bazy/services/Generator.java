@@ -124,6 +124,9 @@ public class Generator {
 
     private static double randomRating() {
         Random r = new Random();
-        return r.nextDouble() * 6;
+        double l = r.nextDouble() * 11;
+        l = Math.ceil(l+1.00001);
+        l/=2;
+        return l;
     }
 }

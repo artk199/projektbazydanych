@@ -1,5 +1,6 @@
 package pl.bazy.data;
 
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import static pl.bazy.Settings.NUM_OF_RATINGS;
@@ -91,7 +92,7 @@ public class Student implements FieldType {
         if (o == null || getClass() != o.getClass()) return 1;
 
         Student student = (Student) o;
-        //System.out.println("Porównuje " + this.avg + " : " + student.avg);
+        //System.out.println("Porównuje " + this.averageRating() + " : " + student.averageRating());
         if(student.averageRating() == this.averageRating())
             return 0;
 
@@ -125,4 +126,9 @@ public class Student implements FieldType {
         }
         return sb.toString();
     };
+
+    @Override
+    public void deserialize(String s){
+        Scanner scanner = new Scanner(s);
+    }
 }

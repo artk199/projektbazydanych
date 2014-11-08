@@ -3,6 +3,8 @@ package pl.bazy;
 import pl.bazy.data.FieldType;
 
 import java.io.File;
+import java.io.IOException;
+
 import static pl.bazy.Settings.INPUT_BUFFER_SIZE;
 import static pl.bazy.Settings.NUM_OF_ELEMENTS;
 import static pl.bazy.Settings.OUTPUT_BUFFER_SIZE;
@@ -68,13 +70,13 @@ public class ProjektBazy {
         while (s1 != null && s2 != null) {
 
             //jeżeli jest zmiana serii na taśmie 1
-            if (s1.compareTo(lastTape1) <= 0) {
+            if (s1.compareTo(lastTape1) < 0) {
                 changeSeries[0] = true;
             } else {
                 changeSeries[0] = false;
             }
 
-            if (s2.compareTo(lastTape2) <= 0) {
+            if (s2.compareTo(lastTape2) < 0) {
                 changeSeries[1] = true;
             } else {
                 changeSeries[1] = false;
@@ -129,9 +131,9 @@ public class ProjektBazy {
     public boolean nextStep(){
         distribute();
         if (subsidiaryTapes[1].getFile().length() == 0) {
-            mainTape.clearConuter();
+            mainTape.clearCounter();
             for(Tape t : subsidiaryTapes) {
-                t.clearConuter();
+                t.clearCounter();
             }
             return true;
         }
@@ -148,13 +150,20 @@ public class ProjektBazy {
                 System.out.println("tapes: ");
                 System.out.println("zapis:\t" + t.getOutputBuffer().getCounter() + "\todczyt:\t" + t.getInputBuffer().getCounter());
                 diskAccesses += t.getCounter();
-                t.clearConuter();
+                t.clearCounter();
             }
             System.out.println("mainTape");
             System.out.println("zapis:\t" + mainTape.getOutputBuffer().getCounter() + "\todczyt:\t" + mainTape.getInputBuffer().getCounter());
 
-            mainTape.clearConuter();
+            mainTape.clearCounter();
             System.out.println(i + " diskAccesses : " + diskAccesses + " powinno byc " + (4*NUM_OF_ELEMENTS*i/INPUT_BUFFER_SIZE));
+
+            if(Settings.WAIT)
+                try {
+                    System.in.read();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
         };
 
 

@@ -7,4 +7,5 @@ import java.io.Serializable;
  */
 public interface FieldType extends Comparable, Serializable {
     String serialize();
+    void deserialize(String s);
 }
