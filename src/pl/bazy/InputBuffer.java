@@ -1,5 +1,6 @@
 package pl.bazy;
 
+import pl.bazy.data.FieldType;
 import pl.bazy.data.Student;
 
 import java.io.File;
@@ -15,7 +16,7 @@ public class InputBuffer {
     private File f;
     private Scanner scanner;
     private int bufferSize;
-    private Student[] buffer;
+    private FieldType[] buffer;
     private int position;
     private int max;
     private int counter;
@@ -30,19 +31,14 @@ public class InputBuffer {
         this.counter = 0;
     }
 
-    public Student getItem(){
+    public FieldType getItem(){
         //Jeżeli buffer się zrobił pusty wczytaj kolejne rekordy z pliku
         if(position >= bufferSize){
             position = 0;
             max = 0;
-            while(scanner.hasNext() && max < bufferSize) {
-                Student s = new Student();
-                s.setIndex(scanner.nextInt());
-                int number = 0;
-                while(number < Settings.NUM_OF_RATINGS){
-                    s.setRating(number, Double.parseDouble(scanner.next()));
-                    number++;
-                }
+            while(scanner.hasNextLine() && max < bufferSize) {
+                FieldType s = new Student();
+                s.deserialize(scanner.nextLine());
                 buffer[max] = s;
                 max++;
             }
@@ -55,7 +51,7 @@ public class InputBuffer {
                 counter++;
         }
 
-        Student s = null;
+        FieldType s = null;
         if(position < max){
             s = buffer[position];
             position++;

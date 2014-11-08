@@ -1,5 +1,7 @@
 package pl.bazy.data;
 
+import pl.bazy.Settings;
+
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -122,7 +124,7 @@ public class Student implements FieldType {
         StringBuilder sb = new StringBuilder();
         sb.append(this.getIndex()+"\t");
         for(int i=0;i<NUM_OF_RATINGS;i++){
-            sb.append(ratings[i]+" ");
+            sb.append(ratings[i]+"\t");
         }
         return sb.toString();
     };
@@ -130,5 +132,12 @@ public class Student implements FieldType {
     @Override
     public void deserialize(String s){
         Scanner scanner = new Scanner(s);
+        this.setIndex(scanner.nextInt());
+        int number = 0;
+        while(number < Settings.NUM_OF_RATINGS){
+            this.setRating(number, Double.parseDouble(scanner.next()));
+            number++;
+        }
+        scanner.close();
     }
 }

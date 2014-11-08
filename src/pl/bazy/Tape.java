@@ -44,7 +44,12 @@ public class Tape {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+        System.out.println();
+        System.out.println("---- "+file.getName()+" ----");
+        System.out.println("------ BEGIN ------");
         System.out.println(content);
+        System.out.println("------  END  ------");
+        System.out.println();
         return content;
     }
 
